@@ -1,0 +1,109 @@
+{
+    "data1": [{
+            "id": "001",
+            "name": "zs",
+            "psd": 123
+        },
+        {
+            "name": "123",
+            "psd": "A123456789",
+            "id": "jzg0RR9"
+        },
+        {
+            "name": "258",
+            "psd": "A741852963",
+            "id": "16eJvFs"
+        }
+    ],
+    "data2": [{
+            "id": 1,
+            "src": "../images/手机7.webp",
+            "price": "9499",
+            "primary": "9999元",
+            "name": "小米MIX FOLD",
+            "info": "折叠大屏｜自研芯片",
+            "bImg": "../images/big1.jpg"
+        },
+        {
+            "id": 2,
+            "src": "../images/手机2.webp",
+            "price": "5499",
+            "primary": "5999元",
+            "name": "小米11 Ultra",
+            "info": "1/1.12''GN2｜2K四微曲屏",
+            "bImg": "../images/big2.jpg"
+        },
+        {
+            "id": 3,
+            "src": "../images/手机3.webp",
+            "price": "4499",
+            "primary": "4999元",
+            "name": "小米11 Pro",
+            "info": "1/1.12''GN2｜骁龙888",
+            "bImg": "../images/big3.jpg"
+        },
+        {
+            "id": 4,
+            "src": "../images/手机4.webp",
+            "price": "2099",
+            "primary": "2999元",
+            "name": "小米11 青春版",
+            "info": "1/1.12''GN2｜骁龙888",
+            "bImg": "../images/big4.png"
+        },
+        {
+            "id": 5,
+            "src": "../images/手机5.webp",
+            "price": "5099",
+            "primary": "5499元",
+            "name": "小米12",
+            "info": "1/1.12''GN2｜骁龙888",
+            "bImg": "../images/big5.png"
+        },
+        {
+            "id": 6,
+            "src": "../images/手机6.webp",
+            "price": "5099",
+            "primary": "5499元",
+            "name": "小米13",
+            "info": "120Hz高帧率流速屏",
+            "bImg": "../images/big6.png"
+        },
+        {
+            "id": 7,
+            "src": "../images/手机7.webp",
+            "price": "4099",
+            "primary": "4599元",
+            "name": "小米11",
+            "info": "1/1.12''GN2｜骁龙888",
+            "bImg": "../images/big7.jpg"
+        },
+        {
+            "id": 8,
+            "src": "../images/手机8.webp",
+            "price": "3199",
+            "primary": "3599元",
+            "name": "小米14",
+            "info": "120Hz高帧率流速屏",
+            "bImg": "../images/big8.jpg"
+        },
+        {
+            "id": 9,
+            "src": "../images/手机2.webp",
+            "price": "3299",
+            "primary": "3599元",
+            "name": "小米15",
+            "info": "120Hz高帧率流速屏",
+            "bImg": "../images/big9.png"
+        },
+        {
+            "id": 10,
+            "src": "../images/手机5.webp",
+            "price": "3399",
+            "primary": "3599元",
+            "name": "小米16",
+            "info": "120Hz高帧率流速屏",
+            "bImg": "../images/big10.png"
+        }
+    ]
+}

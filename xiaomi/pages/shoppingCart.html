@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoppingCart</title>
+    <script src="../js/axios.js"></script>
+
+    <script src="../js/jquery-2.2.4.js"></script>
+    <script type="text/javascript" src="../js/layer-master/src/layer.js"></script>
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="shortcut icon" href="../icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="h-con w">
+            <div class="h-title">
+                <a href="./index.html">
+                    <div class="logo fl">
+                    </div>
+                </a>
+                <h1>我的购物车</h1>
+            </div>
+            <div class="h-info">
+                <a href="./login.html">登录</a>
+                <span>|</span>
+                <a href="./register.html">注册</a>
+            </div>
+        </div>
+    </header>
+    <!-- 购物区 -->
+    <section>
+        <div class="s-con w">
+            <!-- 购物车选项 -->
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 110px;"><input type="checkbox" class="checkbox-all">全选</th>
+                        <th style="width: 120px;">图片</th>
+                        <th style="width: 380px;">商品名称</th>
+                        <th style="width: 158px;">单价</th>
+                        <th style="width: 210px;">数量</th>
+                        <th style="width: 200px;">小计</th>
+                        <th style="width: 80px;">操作</th>
+                    </tr>
+                </thead>
+                <tbody id="tab">
+                    <!-- <tr>
+                        <td><input type="checkbox" class="checkbox-item"></td>
+                        <td><img src="../images/手机2.webp" alt=""></td>
+                        <td> Redmi K30 5G </td>
+                        <td>1799</td>
+                        <td>
+                            <button class="sub minus" name="minus">-</button>
+                            <input value="1" class="gNum">
+                            <button class="sup plus" name="add">+</button>
+                        </td>
+                        <td class="singleprice">1799</td>
+                        <td><i class="del iconfont icon-cha"></i></td>
+                    </tr> -->
+                </tbody>
+            </table>
+
+            <!-- 合计 -->
+            <div class="cart-bar">
+                <p class="fl">共<span class="buy-number">0</span>件商品</p>
+                <div class="pay fr">去结算</div>
+                <p class="fr">合计:<span class="total-money" id="totalPrice">0</span>元</p>
+            </div>
+        </div>
+    </section>
+    </script>
+    <script src="../js/shoppingCart.js"></script>
+</body>
+
+</html>
